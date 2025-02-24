@@ -7,8 +7,8 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-workflow_token = "VZUkiYkrJCxb6zZkX19qJhvA60eiDUli"
-workflow_secret = 'r2phdrTTLlgicNx9CY8N60ZyCykkJQuv'
+workflow_token = ''
+workflow_secret = ''
 
 def main(data):
     url = "https://sandbox.alloy.co/v1/evaluations"
