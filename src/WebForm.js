@@ -34,7 +34,7 @@ const WebForm = () => {
   };
 
   const validateFirstName = (name) => {
-    const namePattern = /^[A-Za-z\s-]+$/; // Allows letters, spaces, and hyphens
+    const namePattern = /^[A-Za-z\s-]+$/;
     return namePattern.test(name);
   };
 
@@ -52,7 +52,7 @@ const WebForm = () => {
   };
 
   const validateDateOfBirth = (dob) => {
-    const iso8601Pattern = /^\d{4}-\d{2}-\d{2}$/; // Checks for YYYY-MM-DD format
+    const iso8601Pattern = /^\d{4}-\d{2}-\d{2}$/;
     return iso8601Pattern.test(dob);
   };
 
@@ -180,7 +180,7 @@ try {
         <div className="form-group">
           <label>Email:</label>
           <input
-            type="email" // Ensure correct type
+            type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
