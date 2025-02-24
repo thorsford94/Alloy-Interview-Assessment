@@ -52,8 +52,6 @@ def submit_form():
     elif response_data == 'Approved':
         response_data = response_data
 
-
-
     return jsonify({"summary": {"outcome": response_data}}), 200
 
 if __name__ == '__main__':
