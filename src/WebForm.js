@@ -194,6 +194,7 @@ try {
             name="AddressLine1"
             value={formData.AddressLine1}
             onChange={handleChange}
+            required
             
           />
         </div>
